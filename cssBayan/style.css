@@ -43,7 +43,7 @@ body {
   
   img {
 	transition: opacity 0.3s ease;
-	display: block;
+	display: none;
 	margin: auto;
 	width: 500px;
 	height: 300px;
@@ -54,4 +54,8 @@ body {
 
   img:hover {
 	opacity: 0.7;
+  }
+
+  input[type="radio"]:checked + img {
+	display: block;
   }
