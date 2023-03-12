@@ -31,3 +31,17 @@ body {
   input[type="radio"]:checked + img {
 	display: block;
   }
+
+  div {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+  }
+
+  div:hover{
+	color: #86e8f9;
+	transition: color 0.3s ease;
+  }
