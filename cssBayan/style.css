@@ -13,34 +13,6 @@ body {
 	margin-bottom: 2rem;
   }
   
-  ul {
-	font-size: 3rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-	align-items: center;
-	transition: color 0.2s ease-in-out;
-  }
-
-  ul:hover {
-	color:rgb(69, 162, 243)
-  }
-  
-  li {
-	margin: 1rem;
-	list-style: none;
-  }
-  
-  details {
-	cursor: pointer;
-  }
-  
-  summary {
-	font-weight: bold;
-  }
-  
   img {
 	transition: opacity 0.3s ease;
 	display: none;
